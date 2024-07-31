@@ -1,7 +1,6 @@
 public class MainApp {
     public static void main(String[] args) {
-        Point point1 = new Point(1, 5);
-        Square square1 = new Square(point1, 5);
+        Square square1 = new Square(new Point(1, 5), 5);
         System.out.println(square1);
 
         square1.setPoint(new Point(2, 6));
